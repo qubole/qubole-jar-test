@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <repositories>
-        <repository>
+<!--        <repository>
             <id>qubole-s3-release</id>
             <name>Qubole S3 Release Repository</name>
             <url>s3://maven-qubole/maven/release</url>
@@ -18,6 +18,19 @@
             <id>qubole-s3-snapshot</id>
             <name>Qubole S3 Snapshot Repository</name>
             <url>s3://maven-qubole/maven/snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>-->
+        <repository>
+            <id>qubole-http-release</id>
+            <name>Qubole HTTP Release Repository</name>
+            <url>http://maven-qubole.s3-website-us-east-1.amazonaws.com/maven/release</url>
+        </repository>
+        <repository>
+            <id>qubole-http-snapshot</id>
+            <name>Qubole HTTP Snapshot Repository</name>
+            <url>http://maven-qubole.s3-website-us-east-1.amazonaws.com/maven/snapshot</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
