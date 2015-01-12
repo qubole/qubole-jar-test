@@ -10,32 +10,19 @@
 
     <repositories>
         <repository>
-            <id>aws-release</id>
-            <name>AWS S3 Release Repository</name>
-            <url>s3://dev.canopydata.com/rvenkatesh/maven/release</url>
+            <id>qubole-s3-release</id>
+            <name>Qubole S3 Release Repository</name>
+            <url>s3://maven-qubole/maven/release</url>
         </repository>
         <repository>
-            <id>aws-snapshot</id>
-            <name>AWS S3 Snapshot Repository</name>
-            <url>s3://dev.canopydata.com/rvenkatesh/maven/snapshot</url>
+            <id>qubole-s3-snapshot</id>
+            <name>Qubole S3 Snapshot Repository</name>
+            <url>s3://maven-qubole/maven/snapshot</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>aws-release</id>
-            <name>AWS S3 Release Repository</name>
-            <url>s3://dev.canopydata.com/rvenkatesh/maven/release</url>
-        </repository>
-        <snapshotRepository>
-            <id>aws-snapshot</id>
-            <name>AWS S3 Snapshot Repository</name>
-            <url>s3://dev.canopydata.com/rvenkatesh/maven/snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <build>
         <extensions>
