@@ -69,7 +69,12 @@
         <dependency>
             <groupId>com.qubole</groupId>
             <artifactId>hadoop</artifactId>
-            <version>0.20.1-dev-core</version>
+            <version>0.20.1-dev</version>
+        </dependency>
+        <dependency>
+            <groupId>com.qubole</groupId>
+            <artifactId>jets3t</artifactId>
+            <version>0.8.1a</version>
         </dependency>
     </dependencies>
 </project>
