@@ -1,2 +1,5 @@
 *.iml
-*/.idea/*
+.idea
+target/
+dependency-reduced-pom.xml
+hadoop-0.20.1-dev-core.pom
