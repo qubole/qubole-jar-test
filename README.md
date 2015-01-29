@@ -4,3 +4,4 @@ This repository provides examples for compiling your code with qubole's hadoop j
 This repository contains a list of example projects.
 
 1. [hadoop20](hadoop20/) - Use Qubole's hadoop-0.20 jars.
+2. [hadoop2](hadoop2/) - Use Qubole's hadoop-2.6.0 jars.
