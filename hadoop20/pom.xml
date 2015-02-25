@@ -67,9 +67,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.qubole</groupId>
+            <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop</artifactId>
-            <version>0.20.1-dev</version>
+            <version>0.20.1-qubole-0.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.qubole</groupId>
