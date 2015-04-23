@@ -68,8 +68,8 @@
         </dependency>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop</artifactId>
-            <version>0.20.1-qubole-0.1.0</version>
+            <artifactId>hadoop-core</artifactId>
+            <version>0.20.1-qds-21.0.0</version>
         </dependency>
         <dependency>
             <groupId>com.qubole</groupId>
